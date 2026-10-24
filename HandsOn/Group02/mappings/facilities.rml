@@ -106,10 +106,10 @@
 
   rr:predicateObjectMap [
     rr:predicate schema:latitude ;
-    rr:objectMap [ rml:reference "LATITUDE" ; rr:datatype xsd:double ]
+    rr:objectMap [ rml:reference "LATITUDE" ; rr:datatype xsd:decimal ]
   ] ;
 
   rr:predicateObjectMap [
     rr:predicate schema:longitude ;
-    rr:objectMap [ rml:reference "LONGITUDE" ; rr:datatype xsd:double ]
+    rr:objectMap [ rml:reference "LONGITUDE" ; rr:datatype xsd:decimal ]
   ] .
